@@ -14,6 +14,10 @@
 		3388B21522833B2A0095D854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3388B21322833B2A0095D854 /* LaunchScreen.storyboard */; };
 		3388B22022833B2A0095D854 /* Food_DiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3388B21F22833B2A0095D854 /* Food_DiaryTests.swift */; };
 		3388B22B22833B2A0095D854 /* Food_DiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3388B22A22833B2A0095D854 /* Food_DiaryUITests.swift */; };
+		3388B246228345CA0095D854 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3388B244228345CA0095D854 /* Food+CoreDataClass.swift */; };
+		3388B247228345CA0095D854 /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3388B245228345CA0095D854 /* Food+CoreDataProperties.swift */; };
+		3388B249228358860095D854 /* FoodItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3388B248228358860095D854 /* FoodItemsViewController.swift */; };
+		3388B24B2283589D0095D854 /* SingleItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3388B24A2283589D0095D854 /* SingleItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		3388B22622833B2A0095D854 /* Food DiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food DiaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3388B22A22833B2A0095D854 /* Food_DiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_DiaryUITests.swift; sourceTree = "<group>"; };
 		3388B22C22833B2A0095D854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3388B244228345CA0095D854 /* Food+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3388B245228345CA0095D854 /* Food+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3388B248228358860095D854 /* FoodItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemsViewController.swift; sourceTree = "<group>"; };
+		3388B24A2283589D0095D854 /* SingleItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		3388B20622833B280095D854 /* Food Diary */ = {
 			isa = PBXGroup;
 			children = (
+				3388B244228345CA0095D854 /* Food+CoreDataClass.swift */,
+				3388B245228345CA0095D854 /* Food+CoreDataProperties.swift */,
 				3388B20722833B280095D854 /* AppDelegate.swift */,
+				3388B248228358860095D854 /* FoodItemsViewController.swift */,
+				3388B24A2283589D0095D854 /* SingleItemViewController.swift */,
 				3388B20B22833B280095D854 /* Main.storyboard */,
 				3388B21122833B2A0095D854 /* Assets.xcassets */,
+				3388B20E22833B280095D854 /* Food_Diary.xcdatamodeld */,
 				3388B21322833B2A0095D854 /* LaunchScreen.storyboard */,
 				3388B21622833B2A0095D854 /* Info.plist */,
-				3388B20E22833B280095D854 /* Food_Diary.xcdatamodeld */,
 			);
 			path = "Food Diary";
 			sourceTree = "<group>";
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3388B246228345CA0095D854 /* Food+CoreDataClass.swift in Sources */,
 				3388B21022833B280095D854 /* Food_Diary.xcdatamodeld in Sources */,
 				3388B20822833B280095D854 /* AppDelegate.swift in Sources */,
+				3388B24B2283589D0095D854 /* SingleItemViewController.swift in Sources */,
+				3388B247228345CA0095D854 /* Food+CoreDataProperties.swift in Sources */,
+				3388B249228358860095D854 /* FoodItemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
